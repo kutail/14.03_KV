@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _14._03_KV
+{
+    public interface IProduct
+    {
+        int Id { get; set; }
+        string Name { get; set; }
+        decimal Price { get; set; }
+        string Category { get; set; }
+        int Quantity { get; set; }
+    }
+}
